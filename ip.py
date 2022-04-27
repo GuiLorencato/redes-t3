@@ -2,8 +2,8 @@ from iputils import *
 import struct
 from random import randint
 from ipaddress import ip_network, ip_address
-from loguru import logger
-
+#from loguru import logger
+import logging as logger
 
 class IP:
     def __init__(self, enlace):
